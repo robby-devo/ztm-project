@@ -1,9 +1,9 @@
 import "./category-item.styles.scss";
 
 const CategoryItem = ({ category }) => {
-  console.log("{ category }", { category });
+  // console.log("{ category }", { category });
   const { id, imageUrl, title } = category;
-  console.log("category", id);
+  // console.log("category", id);
   return (
     <div key={id} className="category-container">
       <div
